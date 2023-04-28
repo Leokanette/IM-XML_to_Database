@@ -39,10 +39,7 @@ foreach ($xml->children() as $row) {
 
 ?>
 
-
-<center >
-    <h1>XML Data storing in Database</h1></center>
-
+<center  <h1>XML Data storing in Database</h1></center>
 
 <?php 
 if ($affectedRow > 0) {
@@ -65,11 +62,9 @@ if ($affectedRow > 0) {
         margin-bottom:  20px;
         border: #bdd6bd 1px solid;
         border-radius: 2px;
-        color: #6e716e;
-        
-        
+        color: #6e716e;  
+        text-align: center; 
     }
-
     .error-message{
 
         background: #eac0c0;
@@ -78,6 +73,7 @@ if ($affectedRow > 0) {
         border: #dab2b2 1px solid;
         border-radius: 2px;
         color: #5d5b5b;
+        text-align: center; 
     }
 
 </style>
